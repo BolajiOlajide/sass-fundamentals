@@ -3,3 +3,24 @@ body {
     color: #c46;
   }
 }
+
+.btn {
+  padding: 2px 10px;
+  border-radius: 2px;
+  border: 1px solid #c46;
+
+  &.btn-primary {
+    background-color: #c46;
+    color: #fff;
+  }
+
+  &.btn-secondary {
+    background-color: rgb(237, 188, 200);
+    color: #000;
+    opacity: 1;
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}

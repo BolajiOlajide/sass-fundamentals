@@ -10,4 +10,26 @@ body {
   border-width: 1px;
   line-height: 20px;
   border-radius: 2px;
+
+  &:disabled {
+    opacity: 0.5;
+
+    .btn__price {
+      background: #aaaaaa;
+    }
+  }
+
+  &.btn--mode-primary {
+    background: #c46;
+    color: rgb(255,255,255);
+  }
+
+  &.btn--mode-secondary {
+    background: rgb(237, 188, 200);
+  }
+
+  &__price {
+    background: #008000;
+    padding: 1px 3px;
+  }
 }
